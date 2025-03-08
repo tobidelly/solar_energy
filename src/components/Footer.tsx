@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <Sun className="h-8 w-8 text-yellow-500" />
-              <span className="ml-2 text-xl font-bold text-white">SolarTech Pro</span>
+              <span className="ml-2 text-xl font-bold text-white">BoltyEnergy</span>
             </div>
             <p className="text-gray-400 mb-4">
               Leading the way in solar technology and sustainable energy solutions.
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; {new Date().getFullYear()} SolarTech Pro. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Bolty Technologies Limited. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-white">Privacy Policy</a>
               <a href="#" className="hover:text-white">Terms of Service</a>
