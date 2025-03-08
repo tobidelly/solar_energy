@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Sun className="h-8 w-8 text-yellow-500" />
-            <span className="ml-2 text-xl font-bold text-gray-800">SolarTech Pro</span>
+            <span className="ml-2 text-xl font-bold text-gray-800">BoltyEnergy</span>
           </div>
 
           {/* Desktop Menu */}
