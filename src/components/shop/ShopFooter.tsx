@@ -66,7 +66,7 @@ export default function ShopFooter() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-yellow-500 mr-2" />
-                <span>shop@solartechpro.ng</span>
+                <span>shop@boltyenergy.com</span>
               </li>
             </ul>
           </div>
@@ -74,7 +74,7 @@ export default function ShopFooter() {
 
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; {new Date().getFullYear()} SolarTech Pro Shop. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Bolty Energy Solar Shop. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-white">Privacy Policy</a>
               <a href="#" className="hover:text-white">Terms of Service</a>
