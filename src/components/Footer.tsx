@@ -59,10 +59,12 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white">Solar Installation</a></li>
-              <li><a href="#" className="hover:text-white">Battery Storage</a></li>
-              <li><a href="#" className="hover:text-white">Power Management</a></li>
-              <li><a href="#" className="hover:text-white">Maintenance</a></li>
+              <li><a href="#" className="hover:text-white">Electrical Panel Design & Installation</a></li>
+              <li><a href="#" className="hover:text-white">Automatic Transfer Switch, ATS</a></li>
+              <li><a href="#" className="hover:text-white">Industrial Electrical Wiring & Installation</a></li>
+              <li><a href="#" className="hover:text-white">Energy Audit & Consultation</a></li>
+              <li><a href="#" className="hover:text-white">Renewable Energy System Design</a></li>
+              <li><a href="#" className="hover:text-white">Asset Verification</a></li>
             </ul>
           </div>
 
@@ -71,8 +73,8 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li>123 Solar Street</li>
               <li>Lagos, Nigeria</li>
-              <li>+234 800-SOLAR-PRO</li>
-              <li>info@solartechpro.ng</li>
+              <li>+234 800-BOLTY-ENERGY</li>
+              <li>info@boltyenergy.com</li>
             </ul>
           </div>
         </div>
