@@ -59,12 +59,12 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white">Electrical Panel Design & Installation</a></li>
-              <li><a href="#" className="hover:text-white">Automatic Transfer Switch, ATS</a></li>
-              <li><a href="#" className="hover:text-white">Industrial Electrical Wiring & Installation</a></li>
-              <li><a href="#" className="hover:text-white">Energy Audit & Consultation</a></li>
-              <li><a href="#" className="hover:text-white">Renewable Energy System Design</a></li>
-              <li><a href="#" className="hover:text-white">Asset Verification</a></li>
+              <li><Link to="/services/electrical-panel" className="hover:text-white">Electrical Panel Design & Installation</Link></li>
+              <li><Link to="/services/automatic-transfer" className="hover:text-white">Automatic Transfer Switch, ATS</Link></li>
+              <li><Link to="/services/industrial-wiring" className="hover:text-white">Industrial Electrical Wiring & Installation</Link></li>
+              <li><Link to="/services/energy-audit" className="hover:text-white">Energy Audit & Consultation</Link></li>
+              <li><Link to="/services/renewable-energy" className="hover:text-white">Renewable Energy System Design</Link></li>
+              <li><Link to="/services/asset-verification" className="hover:text-white">Asset Verification</Link></li>
             </ul>
           </div>
 
