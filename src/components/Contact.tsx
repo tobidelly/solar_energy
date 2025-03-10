@@ -19,7 +19,7 @@ export default function Contact() {
                   <Phone className="h-6 w-6 text-yellow-500 mr-4" />
                   <div>
                     <h4 className="text-lg font-semibold text-white">Phone</h4>
-                    <p className="text-gray-300">1-800-SOLAR-PRO</p>
+                    <p className="text-gray-300">1-800-BOLTY-ENERGY</p>
                     <p className="text-gray-300">Available 24/7 for emergencies</p>
                   </div>
                 </div>
@@ -28,8 +28,8 @@ export default function Contact() {
                   <Mail className="h-6 w-6 text-yellow-500 mr-4" />
                   <div>
                     <h4 className="text-lg font-semibold text-white">Email</h4>
-                    <p className="text-gray-300">info@solartechpro.com</p>
-                    <p className="text-gray-300">support@solartechpro.com</p>
+                    <p className="text-gray-300">info@boltyenergy.com</p>
+                    <p className="text-gray-300">support@boltyenergy.com</p>
                   </div>
                 </div>
                 
@@ -38,7 +38,7 @@ export default function Contact() {
                   <div>
                     <h4 className="text-lg font-semibold text-white">Location</h4>
                     <p className="text-gray-300">123 Solar Street</p>
-                    <p className="text-gray-300">Sacramento, CA 95814</p>
+                    <p className="text-gray-300">Lagos, Nigeria</p>
                   </div>
                 </div>
                 
