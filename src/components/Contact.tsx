@@ -96,9 +96,12 @@ export default function Contact() {
                 <label className="block text-sm font-medium text-gray-300 mb-2">Subject</label>
                 <select className="w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-md text-white focus:ring-yellow-500 focus:border-yellow-500">
                   <option>General Inquiry</option>
-                  <option>Installation Quote</option>
-                  <option>Technical Support</option>
-                  <option>Emergency Service</option>
+                  <option>Electrical Panel Design & Installation</option>
+                  <option>Automatic Transfer Switch, ATS</option>
+                  <option>Industrial Electrical Wiring & Installation</option>
+                  <option>Energy Audit & Consultation</option>
+                  <option>Renewable Energy System Design</option>
+                  <option>Asset Verification</option>
                 </select>
               </div>
               
