@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Sun, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import footericon from "./Assets/footericon.png";
 
 const Footer: React.FC = () => {
   return (
@@ -9,8 +10,9 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <Sun className="h-8 w-8 text-yellow-500" />
-              <span className="ml-2 text-xl font-bold text-white">BoltyEnergy</span>
+              <Link to="/" className="flex-shrink-0">
+              <img src={footericon} alt="BoltyEnergy Logo" className="h-20 w-20" />
+            </Link>
             </div>
             <p className="text-gray-400 mb-4">
               Leading the way in solar technology and sustainable energy solutions.
