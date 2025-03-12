@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Sun, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link } from "react-router-dom";
+import logo from './Assets/logo.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,8 +11,9 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Sun className="h-8 w-8 text-yellow-500" />
-            <span className="ml-2 text-xl font-bold text-gray-800">BoltyEnergy</span>
+            <Link to="/" className="flex-shrink-0">
+              <img src={logo} alt="BoltyEnergy Logo" className="h-20 w-26" />
+            </Link>
           </div>
 
           {/* Desktop Menu */}
